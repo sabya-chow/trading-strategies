@@ -1,7 +1,7 @@
 
-Support and Resistance Zone Breakout Strategy with Daily Data
+## Support and Resistance Zone Breakout Strategy with Daily Data
 
-Overview
+**Overview**
 
 This strategy focuses on detecting support and resistance zones using daily stock data, specifically the NSE 500 stock data, and identifying potential breakout opportunities. The approach leverages pivot points, consolidation of zones, and volume-based breakouts to identify key trading opportunities in financial markets.
 
@@ -26,22 +26,8 @@ How It Works
 	5.	Plotting:
 	•	Provides visual plots of stock prices, volume, support/resistance zones, pivot points, and breakout markers using Plotly.
 
-Usage
 
-To use this strategy:
-	1.	Ensure that you have installed the necessary libraries (pandas, numpy, plotly, and yfinance).
-	2.	Run the code with a specified symbol, start date, and end date.
-	3.	The script will fetch the data, detect zones and breakouts, and generate plots for visual analysis.
-
-Dependencies
-
-	•	Python 3.x
-	•	pandas
-	•	numpy
-	•	plotly
-	•	yfinance
-
-Example
+**Example**
 
 # Import and initialize data analysis
 analysis = StockAnalysis(data)
@@ -55,4 +41,3 @@ Notes
 	•	This strategy is for educational purposes and should not be considered as financial advice.
 	•	Ensure that market data is current and reliable when using this strategy for real-time analysis.
 
-Feel free to modify or expand upon this README content based on your specific needs and details of your strategy.
