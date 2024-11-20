@@ -29,22 +29,6 @@ How It Works
 	4.	Buy Signal Generation: If the conditions for the buy signal are met (latest close equals 52-week high, closing price above EMAs, MACD crossover), the stock is added to a list of stocks with buy signals.
 	5.	Visualization: Generates candlestick charts with EMA overlays, volume, and MACD plots to visually analyze each identified stock.
 
-Usage Instructions
-
-	1.	Dependencies: Ensure you have the following Python libraries installed:
-	•	pandas
-	•	numpy
-	•	matplotlib
-	•	seaborn
-	•	plotly
-	•	yfinance
-	2.	Running the Code:
-	•	The code fetches data for a list of NSE 500 stocks. Ensure you have an active internet connection to download the data.
-	•	Adjust the start_date and end_date as needed for your analysis.
-	3.	Customization:
-	•	You can modify the list of stocks or change the EMA periods for different analysis preferences.
-	•	Adjust the volume_factor or breakout criteria as per your trading strategy.
-
 Example Usage
 
 # Initialize and analyze the data
@@ -57,7 +41,4 @@ analysis.plot_data()
 Notes
 
 	•	The strategy is for educational and research purposes only and should not be construed as financial advice.
-	•	Ensure data accuracy and consistency for real-time market analysis.
-	•	This strategy’s performance may vary depending on market conditions, so backtesting and further validation are recommended.
-
-Feel free to customize this README content further based on your specific goals or any additional features of your strategy.
+	
