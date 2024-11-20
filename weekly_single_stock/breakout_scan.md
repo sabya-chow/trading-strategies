@@ -1,7 +1,7 @@
 
-Support and Resistance Zone Breakout Strategy
+## Support and Resistance Zone Breakout Strategy
 
-Overview
+**Overview**
 
 This strategy focuses on identifying support and resistance zones using pivot points, consolidating nearby zones, and detecting potential breakout patterns. By leveraging historical price data, the strategy aims to provide insights into areas where price movements may accelerate, offering opportunities for trading entries.
 
@@ -45,11 +45,4 @@ Configuration
 
 Dependencies
 
-This strategy uses the following libraries:
-	•	pandas and numpy for data manipulation.
-	•	plotly for creating interactive visualizations.
-	•	scipy for linear regression analysis.
-	•	yfinance for fetching market data.
-
-
-This README.md provides a comprehensive overview of the strategy, covering its key features, configuration options, and how to use it effectively. Feel free to adjust the content as needed based on your specific implementation details.
+**Note** The illustration is for educational purpose only
